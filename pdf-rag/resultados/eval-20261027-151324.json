@@ -1,0 +1,36 @@
+{
+  "experimento": "eval-20261027-151324",
+  "modelo_rag": "openai/gpt-oss-120b",
+  "modelo_evaluador": "openai/gpt-oss-120b",
+  "preguntas": 4,
+  "k": 4,
+  "ragas_promedios": {
+    "llm_context_precision_with_reference": 0.875,
+    "context_recall": 1.0,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8429,
+    "factual_correctness(mode=f1)": 0.6
+  },
+  "costo_rag_local": {
+    "llamadas": 4,
+    "tokens_entrada": 3987,
+    "tokens_salida": 285,
+    "costo_usd": 0.000769
+  },
+  "costo_rag_por_pregunta_usd": 0.000192,
+  "costo_rag_langsmith": {
+    "trazas": 4,
+    "tokens_entrada": 3987,
+    "tokens_salida": 285,
+    "tokens_totales": 4272,
+    "costo_total_usd": 0.000769,
+    "costo_por_traza_usd": 0.000192,
+    "latencia_p50_s": 0.75,
+    "latencia_max_s": 1.35
+  },
+  "costo_evaluacion_ragas": {
+    "tokens_entrada": 53772,
+    "tokens_salida": 19979,
+    "costo_usd": 0.020053
+  }
+}

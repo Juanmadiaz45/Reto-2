@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué hace el tardígrado cuando el ambiente se seca y cómo afecta eso a su metabolismo?",
+    "referencia": "Al secarse, el tardígrado retrae sus patas, expulsa casi toda su agua y se enrolla formando un tun; en ese estado de criptobiosis su metabolismo cae a menos del 0,01 % de lo normal.",
+    "pagina": 1
+  },
+  {
+    "pregunta": "¿Cuál es el nombre de la proteína descubierta en Ramazzottius varieornatus que protege el ADN y reduce el daño en células humanas?",
+    "referencia": "En 2016, investigadores japoneses identificaron en la especie Ramazzottius varieornatus una proteína llamada Dsup (\"supresora de daño\"), que se une al ADN y lo protege. Al introducirla en células humanas cultivadas, estas sufrieron cerca de un 40% menos de daño.",
+    "pagina": 1
+  },
+  {
+    "pregunta": "¿Qué reducción aproximada del daño por rayos X se observó en células humanas al introducirles la proteína Dsup?",
+    "referencia": "Al introducirla en células humanas cultivadas, estas sufrieron cerca de un 40% menos de daño por rayos X.",
+    "pagina": 1
+  },
+  {
+    "pregunta": "¿Desde hace cuánto tiempo existen los tardígrados según el fragmento?",
+    "referencia": "Los tardígrados existen desde hace más de 500 millones de años.",
+    "pagina": 1
+  }
+]

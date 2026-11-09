@@ -1,0 +1,19 @@
+[project]
+name = "mi-servidor"
+version = "0.1.0"
+description = "Servidor MCP de notas del tutorial"
+readme = "README.md"
+authors = [
+    { name = "Juan Manuel Diaz Moreno", email = "jdiazmoreno271@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]<2",
+]
+
+[project.scripts]
+mi-servidor = "mi_servidor:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"

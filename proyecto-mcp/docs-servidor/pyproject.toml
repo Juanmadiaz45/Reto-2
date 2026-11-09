@@ -1,0 +1,20 @@
+[project]
+name = "docs-servidor"
+version = "0.1.0"
+description = "Servidor MCP que consulta la documentación de LangChain"
+readme = "README.md"
+authors = [
+    { name = "Juan Manuel Diaz Moreno", email = "jdiazmoreno271@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]<2",
+]
+
+[project.scripts]
+docs-servidor = "docs_servidor:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"

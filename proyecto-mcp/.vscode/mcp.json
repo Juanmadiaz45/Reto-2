@@ -1,0 +1,40 @@
+{
+  "servers": {
+    "memory": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {
+        "MEMORY_FILE_PATH": "${workspaceFolder}/memoria/memory.jsonl"
+      }
+    },
+    "notas": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "--directory",
+        "${workspaceFolder}/mi-servidor",
+        "run",
+        "src/server.py"
+      ]
+    },
+    "docs": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "--directory",
+        "${workspaceFolder}/docs-servidor",
+        "run",
+        "src/server.py"
+      ],
+      "env": {
+        "DOCS_LLMS_TXT": "https://docs.langchain.com/llms.txt"
+      }
+    },
+    "fetch": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    }
+  }
+}
